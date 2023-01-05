@@ -1,0 +1,33 @@
+{% for a in arrendado %}
+    <h1 style="text-align: center;"><strong>Felicidades {{a.customer}}, Tu arriendo fue realizado para <br> el día {{a.checkin}}.</strong></h1>
+    <h1 style="text-align: center;"><strong>Gracias por arrendar en Turismo Real!</strong></h1>
+    <h3 style="text-align: center;">Esta es tu boleta electrónica para tu arriendo!</h3>
+    <p style="text-align: center;"><img src="http://static-1.ivoox.com/audios/c/5/a/8/c5a8de19690f77dadbf634d28c7e5317.jpg"
+            alt="" width="240" height="240" /></p>
+    <table style="border-collapse: collapse; width: 100%; height: 90px;" border="1">
+        <tbody>
+            <tr style="height: 18px;">
+                <td style="width: 50%; height: 18px;"><strong>Nombre propiedad arrendada:</strong></td>
+                <td style="width: 50%; height: 18px;">{{a.departamento_id_depto}}</td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="width: 50%; height: 18px;"><strong>Fecha CheckIn</strong></td>
+                <td style="width: 50%; height: 18px;">{{a.checkin}}</td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="width: 50%; height: 18px;"><strong>Fecha CheckOut:</strong></td>
+                <td style="width: 50%; height: 18px;">{{a.checkout}}</td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="width: 50%; height: 18px;"><strong>Monto total:</strong></td>
+                <td style="width: 50%; height: 18px;">{{a.tarifa}}</td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="width: 50%; height: 18px;"><strong>Metodo de pago:</strong></td>
+                <td style="width: 50%; height: 18px;">Transbank</td>
+            </tr>
+{% endfor %}
+    </tbody>
+</table>
+<h3 style="text-align: center;">Esperamos nos recomiendes y disfrutes de tus días!</h3>
+<h2 style="text-align: center;"><strong>Atte: Turismo Real</strong></h2>

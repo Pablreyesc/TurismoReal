@@ -1,0 +1,19 @@
+{
+	"debug":true,
+	"base_url":"http://127.0.0.1:8000/",
+	"user":"tester2",
+	"password":"tester2",
+	"server":"localhost",
+	"bd":"TURISMOREAL",
+	"puerto":1521,
+	"paginacion":10,
+	"ruta":"/media/peligro/tera/respaldo/cursos_tamila/django_3/",
+	"ruta2":"/media/peligro/tera/respaldo/cursos_tamila/django_3/tienda/",
+	"smtp":"smtp.dreamhost.com",
+	"smtp_puerto":587,
+	"email":"info@villancino.cl",
+	"email_password":"xhML*V?p", 
+	"webpay_url":"https://webpay3gint.transbank.cl/rswebpaytransaction/api/webpay/v1.2/transactions",
+	"webpay_id":"597055555532",
+	"webpay_secret":"579B532A7440BB0C9079DED94D31EA1615BACEB56610332264630D42D0A36B1C"
+}
